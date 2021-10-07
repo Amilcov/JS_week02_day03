@@ -23,12 +23,10 @@ console.log(test); // ['LAIKA', 'BELKA']
 
 let myForEach = function(array, cb) {
 
-
    for(let i = 0; i < array.length; i++) {
        let elem = array[i];
        cb(elem, i, array);
    }
-
 
 };
 
